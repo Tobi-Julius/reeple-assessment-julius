@@ -10,7 +10,6 @@ import { layout } from "../utils";
 import { pads } from "../constants/data";
 import { colors } from "../constants";
 import { CurrencyContext } from "../context/context";
-import { currencyData } from "../constants/data";
 
 export const KeyPads = () => {
   const {

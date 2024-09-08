@@ -1,6 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { API_URL } from "./API_URL";
 import { arrayConverter } from "../utils/utilFunctions";
+import { API_KEY } from "@env";
 
 export const currencyFetch = (
   setLoading,
@@ -15,7 +16,7 @@ export const currencyFetch = (
     method: "GET",
     redirect: "follow",
   };
-  fetch(`${API_URL}e9f834f6474adbd09eeb4527/latest/usd`, requestOptions)
+  fetch(`${API_URL}${API_KEY}/latest/usd`, requestOptions)
     .then((response) => response.text())
     .then(async (result) => {
       const toBeSaved = JSON.parse(result);
