@@ -18,3 +18,6 @@
 
 
 ****If there is any part that isn't clear enough, please reach out****
+
+
+**Link to documentation- https://docs.google.com/document/d/1-7jkAW6CwVhDwoPRnLLzGX_CptriFu-ObDoaNc_frNU/edit?usp=drive_link**
